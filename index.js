@@ -50,7 +50,7 @@ const updateUrl = (page) => {
 const loadPage = async (page) => {
     if (!pages[page]) {
         console.error(`Page "${page}" does not exist.`);
-        return;
+        page = "404";
     }
 
     const body = document.querySelector("body");
@@ -149,48 +149,4 @@ const handlePopState = () => {
         await loadPage(page);
     });
 };
-
-/*
-const initPage = async () => {
-    console.log("Initializing Page.");
-
-
-    const page = await getPageParameter();
-
-    body.querySelector("main").innerHTML = await getPageHTML(page);
-
-};
-
-const getPageParameter = async () => {
-    const queryString = window.location.search;
-    const searchParams = new URLSearchParams(queryString);
-
-    if (searchParams.has("page")) {
-        const page = serachParams.get("page");
-        if (await pageExists(page)) {
-            return page;
-        }
-    } else {
-        return "home";
-    }
-
-    return "404";
-};
-
-const pageExists = async (url) => (await fetch(url)).ok;
-
-const getPageHTML = async (url) => {
-    try {
-        const response = await fetch(url + ".html");
-        if (response.status === 200) {
-            return await response.text();
-        } else if (response.status === 404) {
-            throw new Error("Page not found");
-        }
-    } catch (error) {
-        console.error(error.message);
-        return null;
-    }
-};
-*/
 

@@ -10,6 +10,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * Create page initializer.
 * Add a script to dynamically load pages and their resources.
 
+### Fixed
+* Fix returning instead of opening the 404 page if requested page could not found.
+
+### Removed
+* Remove old code.
+
 <!-- [Unreleased]: https://github.com/NoelClick/wp-bnb/compare/v0.1.0...HEAD -->
 <!-- [0.1.0]: https://github.com/NoelClick/wp-bnb/releases/tag/v0.1.0 -->
 
