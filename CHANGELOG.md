@@ -10,6 +10,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * Create page initializer.
 * Add a script to dynamically load pages and their resources.
 
+### Changed
+* Structure assets and pages for better overview.
+
 ### Fixed
 * Fix returning instead of opening the 404 page if requested page could not found.
 

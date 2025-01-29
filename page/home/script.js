@@ -1,6 +1,6 @@
 // $(document).ready(function() {
 function homeInit() {
-    console.debug("Home initilization started.");
+    console.debug("Home initialization started.");
 
     let cart = [];
 

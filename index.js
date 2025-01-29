@@ -65,7 +65,7 @@ const loadPage = async (page) => {
     // Dynamically load page's CSS
     if (pages[page].css) {
         console.debug(`Loading additional CSS for page "${page}".`);
-        loadCSS(pages[page].css);
+        loadCSS("page/" + page + "/" + pages[page].css);
     } else {
         console.debug(`No additional CSS needed for page "${page}".`);
     }
@@ -73,7 +73,7 @@ const loadPage = async (page) => {
     // Dynamically load page's JS
     if (pages[page].js) {
         console.debug(`Loading additional JS for page "${page}".`);
-        await loadJS(pages[page].js, () => {
+        await loadJS("page/" + page + "/" + pages[page].js, () => {
             if (typeof window[`${page}Init`] === "function") {
                 window[`${page}Init`](); // Call page-specific initialization
             }
@@ -83,7 +83,7 @@ const loadPage = async (page) => {
     }
 
     // Fetch and display HTML content
-    const html = await fetch(pages[page].html)
+    const html = await fetch("page/"+page+"/"+pages[page].html)
         .then(response => {
             if (response.status === 200) return response.text();
             throw new Error(`Failed to load HTML for page "${page}"`);
