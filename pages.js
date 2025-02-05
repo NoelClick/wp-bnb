@@ -12,7 +12,7 @@ export default {
         js: ""
     },
     list: {
-        title: "List",
+        title: "Apartment List",
         html: "list.html",
         css: "",
         js: "list.module.js"

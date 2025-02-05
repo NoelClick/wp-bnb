@@ -16,6 +16,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * Create apartment `details` page.
 * Create `legal-notice` page.
 * Redesign `index.html`.
+* Create `list` page.
+* Add filtering option to the `list` page.
 
 ### Changed
 * Structure assets and pages for better overview.

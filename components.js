@@ -14,6 +14,23 @@ export default {
             `;
         }
     },
+    apartment_list_card: {
+        func: ({id = "", title = "", image = "", description = "", price = "", stars = "", location = ""} = {}) => {
+            return `
+                <div class="grid grid-cols-4 gap-6 shadow-md transition duration-200 ease-in-out p-5 rounded-md border border-gray-100 bg-gray-100 dark:border-slate-900 dark:bg-slate-800 hover:scale-105">
+                    <img class="col-span-1 w-full h-full object-cover max-w-50 mb-2 rounded text-black dark:text-white" src="${image}" alt="${title}">
+                    <div class="col-span-3 flex flex-col h-full text-start text-black dark:text-white">
+                        <h3 class="text-xl">${title}</h3>
+                        <p>${stars}</p>
+                        <p>${description}</p>
+                        <p><b>Location:</b> ${location}</p>
+                        <p class="font-bold text-black dark:text-white my-2 text-xl mb-3">${price} per night</p>
+                        <a class="block self-start w-auto border border-solid border-teal-900 rounded bg-teal-800 text-white mt-auto px-5 py-2 hover:cursor-pointer underline" href="/?page=detail&apartment=${id}">Details</a>
+                    </div>
+                </div>
+            `;
+        }
+    },
     apartment_detail: {
         func: ({id = "", name = "", thumbnail_image = "", description = "", price_per_night = "", location = "", category = "", max_guests = "", stars = "", pet_friendly = "", host = ""} = {}) => {
             return `
@@ -43,6 +60,16 @@ export default {
                         <a class="inline-block border border-solid border-teal-900 rounded bg-teal-800 text-white mt-auto px-5 py-2 hover:cursor-pointer underline" href="/?page=booking&apartment=${id}">Book now</a>
                     </div>
                 </div>
+            `;
+        }
+    },
+    form_checkbox: {
+        func: ({name = "", value = "", label = ""} = {}) => {
+            return `
+                <label class="grid grid-cols-[auto_1fr] gap-3 items-center rounded-md px-2 hover:bg-gray-200 dark:hover:bg-slate-900" for="${name}">
+                    <input name="${name}" value="${value}" class="size-3.5 appearance-none rounded-sm border border-gray-300 accent-teal-500 cursor-pointer checked:appearance-auto dark:border-gray-600 dark:accent-teal-600" type="checkbox">
+                    <span class="text-black dark:text-white select-none">${label}</span>
+                </label>
             `;
         }
     }
