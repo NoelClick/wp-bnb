@@ -13,6 +13,38 @@ export default {
                 </div>
             `;
         }
+    },
+    apartment_detail: {
+        func: ({id = "", name = "", thumbnail_image = "", description = "", price_per_night = "", location = "", category = "", max_guests = "", stars = "", pet_friendly = "", host = ""} = {}) => {
+            return `
+                <!-- TOP IMAGE -->
+                <div class="relative w-full max-h-100 mb-2">
+                    <span class="absolute top-3 start-3 z-50 bg-teal-600/80 rounded border-2 border-solid border-teal-800 px-3 py-1 text-xs text-white" aria-hidden="true">${category}</span>
+                    <span class="absolute top-12 start-3 z-50 bg-teal-600/80 rounded border-2 border-solid border-teal-800 px-3 py-1 text-xs text-white" aria-hidden="true">${pet_friendly ? "🐶 allowed" : "No 🐶 allowed"}</span>
+                    <span class="absolute bottom-3 start-3 z-50 bg-teal-600/80 rounded border-2 border-solid border-teal-800 px-3 py-1" aria-hidden="true">${stars}</span>
+                    <img class="relative rounded w-full max-h-100 object-cover " src="${thumbnail_image}" alt="${name} Thumbnail">
+                </div>
+
+                <!-- DESCRIPTION (2fr) | BOOKING DETAILS (1fr) -->
+                <div class="w-full grid grid-cols md:grid-cols-3 gap-2">
+                    <div class="md:col-span-2 w-full p-5 text-black dark:text-white bg-gray-100 dark:bg-slate-800 rounded border border-solid border-gray-200 dark:border-slate-900">
+                        <h2 class="text-xl mb-2">Description</h2>
+                        <p>${description}</p>
+                        <p><b>Limit:</b> Up to ${max_guests} guests</p>
+                        <p><b>Location:</b> ${location}</p>
+                        <p><b>Host:</b> ${host}</p>
+                        <hr class="my-2 text-gray-200 dark:text-slate-900">
+                        <p><a class="underline" href="/?page=detail&apartment=${id}">Share</a></p>
+                    </div>
+                    <div class="md:col-span-1 w-full p-5 bg-gray-100 dark:bg-slate-800 rounded border border-solid border-gray-200 dark:border-slate-900">
+                        <h2 class="text-xl mb-2">Booking Details</h2>
+                        <p><b>Price:</b> ${price_per_night} per night</p>
+                        <hr class="my-2 text-gray-200 dark:text-slate-900">
+                        <a class="inline-block border border-solid border-teal-900 rounded bg-teal-800 text-white mt-auto px-5 py-2 hover:cursor-pointer underline" href="/?page=booking&apartment=${id}">Book now</a>
+                    </div>
+                </div>
+            `;
+        }
     }
 };
 

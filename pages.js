@@ -15,7 +15,13 @@ export default {
         title: "List",
         html: "list.html",
         css: "",
-        js: ""
+        js: "list.module.js"
+    },
+    detail: {
+        title: "Detail",
+        html: "detail.html",
+        css: "",
+        js: "detail.module.js"
     },
     404: {
         title: "404 Page not found",
@@ -23,5 +29,11 @@ export default {
         css: "",
         js: ""
     },
+    "legal-notice": {
+        title: "Legal Notice / Impressum",
+        html: "legal-notice.html",
+        css: "",
+        js: ""
+    }
 };
 

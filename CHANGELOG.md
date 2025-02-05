@@ -13,6 +13,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * Load apartments dynamically from a list (`apartment_list.js`).
 * Create footer navigation.
 * Create 10 placeholder apartments.
+* Create apartment `details` page.
+* Create `legal-notice` page.
+* Redesign `index.html`.
 
 ### Changed
 * Structure assets and pages for better overview.

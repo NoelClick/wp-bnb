@@ -95,6 +95,9 @@ const loadPage = async (page) => {
 
     updateUrl(page);
 
+    // Scroll to top
+    window.scrollTo(0, 0);
+
     console.log(`Page "${page}" loaded successfully.`);
 };
 
