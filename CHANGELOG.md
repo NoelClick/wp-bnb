@@ -28,6 +28,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 * Fix returning instead of opening the 404 page if requested page could not found.
+* Fix responsiveness of the list page.
 
 ### Removed
 * Remove old code.

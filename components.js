@@ -17,9 +17,9 @@ export default {
     apartment_list_card: {
         func: ({id = "", title = "", image = "", description = "", price = "", stars = "", location = ""} = {}) => {
             return `
-                <div class="grid grid-cols-4 gap-6 shadow-md transition duration-200 ease-in-out p-5 rounded-md border border-gray-100 bg-gray-100 dark:border-slate-900 dark:bg-slate-800 hover:scale-105">
-                    <img class="col-span-1 w-full h-full object-cover max-w-50 mb-2 rounded text-black dark:text-white" src="${image}" alt="${title}">
-                    <div class="col-span-3 flex flex-col h-full text-start text-black dark:text-white">
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-6 shadow-md transition duration-200 ease-in-out p-5 rounded-md border border-gray-100 bg-gray-100 dark:border-slate-900 dark:bg-slate-800 hover:scale-105">
+                    <img class="md:col-span-1 w-full h-full object-cover md:max-w-50 mb-2 rounded text-black dark:text-white" src="${image}" alt="${title}">
+                    <div class="md:col-span-3 flex flex-col h-full text-start text-black dark:text-white">
                         <h3 class="text-xl">${title}</h3>
                         <p>${stars}</p>
                         <p>${description}</p>
