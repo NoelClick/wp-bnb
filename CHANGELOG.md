@@ -9,9 +9,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * Add `ddev` config.
 * Create page initializer.
 * Add a script to dynamically load pages and their resources.
+* Create component renderer.
+* Load apartments dynamically from a list (`apartment_list.js`).
+* Create footer navigation.
+* Create 10 placeholder apartments.
 
 ### Changed
 * Structure assets and pages for better overview.
+* Update navigaton bar entry (mark entry of current).
+* Update home page.
+* Migrate styles from vanilla CSS to tailwindcss.
+* Update `README.md`.
 
 ### Fixed
 * Fix returning instead of opening the 404 page if requested page could not found.

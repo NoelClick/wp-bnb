@@ -6,24 +6,40 @@
     <title>WP-BNB</title>
     <link rel="stylesheet" href="assets/stylesheet/styles.css">
     <script src="assets/script/tailwindcss.js"></script>
-    <script src="assets/script/jquery-3.6.0.min.js"></script>
-    <script src="index.js"></script>
+    <!-- <script src="assets/script/jquery-3.6.0.min.js"></script> -->
+    <script src="app.js" type="module"></script>
 </head>
-<body>
-    <header>
-        <h1 id="page_title">WP-BNB</h1>
-        <nav>
-            <ul>
-                <li><a href="#" data-page="home">Startseite</a></li>
-                <li><a href="#" data-page="list">Liste</a></li>
-                <li><a href="#" data-page="about">Über uns</a></li>
-            </ul>
-        </nav>
+<body class="h-full min-h-full bg-white dark:bg-gray-900">
+    <header class="bg-slate-900 dark:bg-slate-800 text-white p-1 text-center">
+        <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
+            <div class="mb-2">
+                <h1 class="text-4xl" id="page_title">WP-BNB</h1>
+            </div>
+            <nav class="mt-6 flex justify-center">
+                <ul class="flex justify-center gap-4 list-none p-0 my-0">
+                    <li class="sm:inline mx-3 my-2 sm:my-0"><a class="data-current:border data-current:border-solid data-current:border-transparent data-current:rounded px-3 py-2 data-current:text-white underline data-current:bg-gray-900" href="#" data-page="home">Home</a></li>
+                    <li class="sm:inline mx-3 my-2 sm:my-0"><a class="data-current:border data-current:border-solid data-current:border-transparent data-current:rounded px-3 py-2 data-current:text-white underline data-current:bg-gray-900" href="#" data-page="list">List</a></li>
+                    <li class="sm:inline mx-3 my-2 sm:my-0"><a class="data-current:border data-current:border-solid data-current:border-transparent data-current:rounded px-3 py-2 data-current:text-white underline data-current:bg-gray-900" href="#" data-page="about">About us</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main id="content">
+    <main id="content" class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8 bg-white dark:bg-gray-900">
     </main>
     <footer>
-        <p>&copy; 2025 WP-BNB</p>
+        <div class="text-center mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
+            <hr class="text-gray-400 dark:text-slate-800 my-4">
+            <blockquote class="text-center text-2xl font-semibold text-gray-900 italic dark:text-white">Your <span class="relative inline-block before:absolute before:-inset-1 before:-skew-y-3 before:block before:bg-teal-400"><span class="relative text-white dark:text-gray-950">comfort</span></span> is our priority, from check-in to check-out.</blockquote>
+            <hr class="text-gray-400 dark:text-slate-800 my-4">
+
+            <ul class="my-4 text-black dark:text-white underline *:">
+                <li><a href="#" data-page="impressum">Impressum</a></li>
+                <li><a href="#" data-page="agb">AGB</a></li>
+                <li><a href="#" data-page="privacy">Privacy Notice</a></li>
+            </ul>
+            <hr class="text-gray-400 dark:text-slate-800 my-4">
+            <p class="text-black dark:text-white">&copy; Copyright 2025 WP-BNB</p>
+        </div>
     </footer>
 </body>
 </html>
