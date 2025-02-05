@@ -34,6 +34,18 @@ export default {
         html: "legal-notice.html",
         css: "",
         js: ""
+    },
+    "privacy-notice": {
+        title: "Privacy Notice",
+        html: "privacy-notice.html",
+        css: "",
+        js: ""
+    },
+    "terms-and-conditions": {
+        title: "Terms and Conditions",
+        html: "terms-and-conditions.html",
+        css: "",
+        js: ""
     }
 };
 

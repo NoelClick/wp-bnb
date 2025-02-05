@@ -1,6 +1,6 @@
 export default {
     "0": {
-        "id": 1,
+        "id": 0,
         "name": "Cozy Studio in Downtown",
         "thumbnail_image": "/assets/img/bild1.jpg",
         "description": "A charming studio in the heart of the city, perfect for solo travelers or couples.",
@@ -14,7 +14,7 @@ export default {
         "host": "WP-BNB FakeGmbH"
     },
     "1": {
-        "id": 2,
+        "id": 1,
         "name": "Luxury Penthouse with City View",
         "thumbnail_image": "/assets/img/bild2.jpg",
         "description": "An upscale penthouse with breathtaking city views and modern amenities.",
@@ -28,7 +28,7 @@ export default {
         "host": "WP-BNB FakeGmbH"
     },
     "2": {
-        "id": 3,
+        "id": 2,
         "name": "Seaside Retreat",
         "thumbnail_image": "/assets/img/bild1.jpg",
         "description": "A relaxing beachfront apartment with direct ocean access and a private balcony.",
@@ -42,7 +42,7 @@ export default {
         "host": "WP-BNB FakeGmbH"
     },
     "3": {
-        "id": 4,
+        "id": 3,
         "name": "Rustic Mountain Cabin",
         "thumbnail_image": "/assets/img/bild3.jpg",
         "description": "A cozy wooden cabin nestled in the mountains, ideal for nature lovers.",
@@ -56,7 +56,7 @@ export default {
         "host": "WP-BNB FakeGmbH"
     },
     "4": {
-        "id": 5,
+        "id": 4,
         "name": "Modern Loft with Skylight",
         "thumbnail_image": "/assets/img/bild3.jpg",
         "description": "A stylish loft with an open floor plan, high ceilings, and a skylight for natural light.",
@@ -70,7 +70,7 @@ export default {
         "host": "WP-BNB FakeGmbH"
     },
     "5": {
-        "id": 6,
+        "id": 5,
         "name": "Family-Friendly Suburban Home",
         "thumbnail_image": "/assets/img/bild2.jpg",
         "description": "A spacious home in a quiet neighborhood, perfect for families or groups.",
@@ -84,7 +84,7 @@ export default {
         "host": "WP-BNB FakeGmbH"
     },
     "6": {
-        "id": 7,
+        "id": 6,
         "name": "Tiny Home Escape",
         "thumbnail_image": "/assets/img/bild2.jpg",
         "description": "A unique tiny home experience with smart space utilization and a cozy atmosphere.",
@@ -98,7 +98,7 @@ export default {
         "host": "WP-BNB FakeGmbH"
     },
     "7": {
-        "id": 8,
+        "id": 7,
         "name": "Chic Urban Apartment",
         "thumbnail_image": "/assets/img/bild1.jpg",
         "description": "A modern apartment in a vibrant urban area, close to shops and restaurants.",
@@ -112,7 +112,7 @@ export default {
         "host": "WP-BNB FakeGmbH"
     },
     "8": {
-        "id": 9,
+        "id": 8,
         "name": "Countryside Farmhouse",
         "thumbnail_image": "/assets/img/bild1.jpg",
         "description": "A peaceful farmhouse surrounded by greenery and rolling hills.",
@@ -126,7 +126,7 @@ export default {
         "host": "WP-BNB FakeGmbH"
     },
     "9": {
-        "id": 10,
+        "id": 9,
         "name": "Historic Townhouse with Garden",
         "thumbnail_image": "/assets/img/bild3.jpg",
         "description": "A beautifully restored historic townhouse with a private garden and vintage decor.",

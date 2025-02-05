@@ -21,7 +21,7 @@ export default function detailInit() {
     if (params.has("apartment")) {
         const apartmentId = params.get("apartment");
         console.log(`Found apartment id: ${apartmentId}`);
-        if (Number(apartmentId)) {
+        if (Number(apartmentId) || apartmentId == 0) {
             console.log(`Apartment id is valid: ${apartmentId}`);
             const apartment = Object.values(apartment_list)[apartmentId];
             console.log(apartment, typeof apartment)
