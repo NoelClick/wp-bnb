@@ -25,6 +25,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * Update home page.
 * Migrate styles from vanilla CSS to tailwindcss.
 * Update `README.md`.
+* Don't show the current apartment in the similar apartments list in detail view.
 
 ### Fixed
 * Fix returning instead of opening the 404 page if requested page could not found.
@@ -32,6 +33,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Removed
 * Remove old code.
+* Removed licensed images, using pixabay images now (rebase).
 
 <!-- [Unreleased]: https://github.com/NoelClick/wp-bnb/compare/v0.1.0...HEAD -->
 <!-- [0.1.0]: https://github.com/NoelClick/wp-bnb/releases/tag/v0.1.0 -->

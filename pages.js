@@ -6,7 +6,7 @@ export default {
         js: "home.module.js",
     },
     about: {
-        title: "About",
+        title: "About us",
         html: "about.html",
         css: "",
         js: ""

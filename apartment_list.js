@@ -2,7 +2,7 @@ export default {
     "0": {
         "id": 0,
         "name": "Cozy Studio in Downtown",
-        "thumbnail_image": "/assets/img/bild1.jpg",
+        "thumbnail_image": "/assets/img/img_1.jpg",
         "description": "A charming studio in the heart of the city, perfect for solo travelers or couples.",
         "stars": 4,
         "location": "Downtown, Cityville",
@@ -16,7 +16,7 @@ export default {
     "1": {
         "id": 1,
         "name": "Luxury Penthouse with City View",
-        "thumbnail_image": "/assets/img/bild2.jpg",
+        "thumbnail_image": "/assets/img/img_2.jpg",
         "description": "An upscale penthouse with breathtaking city views and modern amenities.",
         "stars": 4,
         "location": "City Center, Cityville",
@@ -30,7 +30,7 @@ export default {
     "2": {
         "id": 2,
         "name": "Seaside Retreat",
-        "thumbnail_image": "/assets/img/bild1.jpg",
+        "thumbnail_image": "/assets/img/img_1.jpg",
         "description": "A relaxing beachfront apartment with direct ocean access and a private balcony.",
         "stars": 4,
         "location": "Seaview, Beachville",
@@ -44,7 +44,7 @@ export default {
     "3": {
         "id": 3,
         "name": "Rustic Mountain Cabin",
-        "thumbnail_image": "/assets/img/bild3.jpg",
+        "thumbnail_image": "/assets/img/img_3.jpg",
         "description": "A cozy wooden cabin nestled in the mountains, ideal for nature lovers.",
         "stars": 4,
         "location": "Highlands, Mountville",
@@ -58,7 +58,7 @@ export default {
     "4": {
         "id": 4,
         "name": "Modern Loft with Skylight",
-        "thumbnail_image": "/assets/img/bild3.jpg",
+        "thumbnail_image": "/assets/img/img_3.jpg",
         "description": "A stylish loft with an open floor plan, high ceilings, and a skylight for natural light.",
         "stars": 4,
         "location": "Arts District, Cityville",
@@ -72,7 +72,7 @@ export default {
     "5": {
         "id": 5,
         "name": "Family-Friendly Suburban Home",
-        "thumbnail_image": "/assets/img/bild2.jpg",
+        "thumbnail_image": "/assets/img/img_2.jpg",
         "description": "A spacious home in a quiet neighborhood, perfect for families or groups.",
         "stars": 4,
         "location": "Suburbia, Townsville",
@@ -86,7 +86,7 @@ export default {
     "6": {
         "id": 6,
         "name": "Tiny Home Escape",
-        "thumbnail_image": "/assets/img/bild2.jpg",
+        "thumbnail_image": "/assets/img/img_2.jpg",
         "description": "A unique tiny home experience with smart space utilization and a cozy atmosphere.",
         "stars": 5,
         "location": "Green Valley, Countryside",
@@ -100,7 +100,7 @@ export default {
     "7": {
         "id": 7,
         "name": "Chic Urban Apartment",
-        "thumbnail_image": "/assets/img/bild1.jpg",
+        "thumbnail_image": "/assets/img/img_1.jpg",
         "description": "A modern apartment in a vibrant urban area, close to shops and restaurants.",
         "stars": 3,
         "location": "Midtown, Cityville",
@@ -114,7 +114,7 @@ export default {
     "8": {
         "id": 8,
         "name": "Countryside Farmhouse",
-        "thumbnail_image": "/assets/img/bild1.jpg",
+        "thumbnail_image": "/assets/img/img_1.jpg",
         "description": "A peaceful farmhouse surrounded by greenery and rolling hills.",
         "stars": 0,
         "location": "Farmville, Rural County",
@@ -128,7 +128,7 @@ export default {
     "9": {
         "id": 9,
         "name": "Historic Townhouse with Garden",
-        "thumbnail_image": "/assets/img/bild3.jpg",
+        "thumbnail_image": "/assets/img/img_3.jpg",
         "description": "A beautifully restored historic townhouse with a private garden and vintage decor.",
         "stars": 5,
         "location": "Old Town, Cityville",
