@@ -5,6 +5,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+## [1.0.0]
 ### Added
 * Add `ddev` config.
 * Create page initializer.
@@ -18,6 +20,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * Redesign `index.html`.
 * Create `list` page.
 * Add filtering option to the `list` page.
+* Add link to the logo in the navigation bar.
 
 ### Changed
 * Structure assets and pages for better overview.
@@ -37,6 +40,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * Removed licensed images, using pixabay images now (rebase).
 * Remove unused CSS rules.
 
-<!-- [Unreleased]: https://github.com/NoelClick/wp-bnb/compare/v0.1.0...HEAD -->
-<!-- [0.1.0]: https://github.com/NoelClick/wp-bnb/releases/tag/v0.1.0 -->
+[Unreleased]: https://github.com/NoelClick/wp-bnb/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/NoelClick/wp-bnb/releases/tag/v1.0.0
 
