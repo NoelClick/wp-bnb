@@ -37,6 +37,12 @@ const loadPage = async (page) => {
         header.textContent = pages[page].title || "wp-bnb";
     }
 
+    // Change emotion image to visible
+    const emotion = document.querySelector("#emotion");
+    if (emotion) {
+        if (emotion.classList.contains("hidden")) emotion.classList.remove("hidden");
+    }
+
     // Update navigaton bar entry (mark as current)
     document.querySelectorAll("[data-page]").forEach(el => {
         if (el.hasAttribute("data-current")) el.removeAttribute("data-current");

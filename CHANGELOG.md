@@ -30,10 +30,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 * Fix returning instead of opening the 404 page if requested page could not found.
 * Fix responsiveness of the list page.
+* Fix hidden emotion stays hidden after leaving detail page.
 
 ### Removed
 * Remove old code.
 * Removed licensed images, using pixabay images now (rebase).
+* Remove unused CSS rules.
 
 <!-- [Unreleased]: https://github.com/NoelClick/wp-bnb/compare/v0.1.0...HEAD -->
 <!-- [0.1.0]: https://github.com/NoelClick/wp-bnb/releases/tag/v0.1.0 -->
